@@ -1,0 +1,17 @@
+# Large data/model files (not suitable for git)
+storage/
+datasets/
+recommenders/weights/
+recommenders/build/
+*.pyc
+__pycache__/
+*.so
+*.egg-info/
+.eggs/
+*.pkl
+*.npy
+*.pt
+*.pth
+hf_cache/
+*.o
+build/
