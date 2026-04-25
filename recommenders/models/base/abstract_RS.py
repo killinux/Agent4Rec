@@ -20,7 +20,7 @@ class AbstractRS(nn.Module):
         # basic information
         self.args = args
         self.special_args = special_args
-        self.device = torch.device(args.cuda)
+        self.device = torch.device("cuda:" + str(args.cuda) if torch.cuda.is_available() else "cpu")
         self.test_only = args.test_only
         self.candidate = args.candidate
 

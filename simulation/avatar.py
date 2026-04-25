@@ -269,8 +269,8 @@ class Avatar(abstract_avatar):
                 +"\nMOVIE: [movie name]; ALIGN: [yes or no]; REASON: [brief reason]"
                 +"\nSecondly, among the movies that align with your tastes, decide the number of movies you want to watch based on your activity and diversity traits. Use this format:"
                 +"\nNUM: [number of movie you choose to watch]; WATCH: [all movie name you choose to watch]; REASON: [brief reason];"
-                +"\nThirdly, assume it's your first time watching the movies you've chosen, and rate them on a scale of 1-5 to reflect different degrees of liking, considering your feeling and conformity trait. Use this format:"
-                +"\n MOVIE:[movie you choose to watch]; RATING: [integer between 1-5]; FEELING: [aftermath sentence]; "
+                +"\nThirdly, rate ALL the recommended movies on a scale of 1-5, including movies you chose NOT to watch. Most movies should receive 3 stars (average). Only truly outstanding movies deserve 5 stars, and only truly bad matches deserve 1 star. The majority of your ratings should be 2, 3, or 4. Use this format:"
+                +"\n MOVIE:[movie name]; RATING: [integer between 1-5]; FEELING: [aftermath sentence]; "
                 +"\n Do not include any additional information or explanations and stay grounded."
         )
 
